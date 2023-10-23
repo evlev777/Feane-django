@@ -1,0 +1,44 @@
+{% extends 'products/base.html' %}
+
+{% block title %}
+Feane
+{% endblock %}
+
+
+{% block content %}
+{% include 'products/components/main_section_index.html' %}
+
+  <!-- offer section -->
+
+{% include 'products/components/offer_section_index.html' %}
+
+  <!-- end offer section -->
+
+  <!-- food section -->
+
+  {% include 'products/components/food_section_index.html' %}
+
+  <!-- end food section -->
+
+  <!-- about section -->
+
+  {% include 'products/components/about_section_index.html' %}
+
+  <!-- end about section -->
+
+  <!-- book section -->
+  {% include 'products/components/book_section_index.html' %}
+  <!-- end book section -->
+
+  <!-- client section -->
+
+{% include 'products/components/client_section_index.html' %}
+
+  <!-- end client section -->
+
+  <!-- footer section -->
+  {% include 'products/components/footer.html' %}
+  <!-- footer section -->
+
+{% endblock %}
+
